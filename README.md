@@ -69,3 +69,54 @@
   <li>Let the cake chill and serve.</li>
 </ol>
 ```
+
+## Thematic Change
+- Use `<hr>` or `<hr/> ` to define a thematic change in the content
+
+```HTML
+<h1>HTML</h1>
+<p>HTML is a language for describing web pages.....</p>
+
+<hr>
+
+<h1>CSS</h1>
+<p>CSS defines how to display HTML elements.....</p>
+```
+
+## Images
+- In HTML, images are defined with the `<img>` tag.
+- The `<img>` tag is empty, it contains attributes only, and does not have a closing tag.
+- The `src` attribute specifies the URL (web address) of the image:
+
+```HTML
+<img src="url">
+```
+- The `alt` attribute provides an alternate text for an image, if the user for some reason cannot view it (because of slow connection, an error in the `src` attribute, or if the user uses a screen reader).
+- The value of the `alt` attribute should describe the image:
+- __Note:__ The alt attribute is required. A web page will not validate correctly without it.
+- You can use the style attribute to specify the width and height of an image.
+
+```html
+<img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
+```
+- Alternatively, you can use the width and height attributes:
+
+```HTML
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+```
+
+- Use relative sizes to make your image responsive
+
+```HTML
+<img src="profile.jpg" width="100%" />
+```
+
+## Links
+- The `<a>` tag defines a hyperlink, which is used to link from one page to another.
+- The most important attribute of the <a> element is the `href` attribute, which indicates the link's destination.
+
+```HTML
+<a href="https://instagram.com/swaggyp317" target="_blank">
+  Follow me on instagram
+</a>
+```
