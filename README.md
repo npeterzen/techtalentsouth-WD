@@ -7,6 +7,13 @@
 - For the "homepage" file, call it `index.html`
 - At the end of your file name, include the file type. Example `file.html` or `file.css`
 
+## HTML Tags
+```HTML
+<tag property="value" another-property="value"></tag>
+
+<anothertag property="value" />
+```
+
 ## Head
 - The head tag is for information that the browser needs to help Google Search, Social media sharing.  Presents description information.
 
@@ -70,7 +77,7 @@
 </ol>
 ```
 
-## Thematic Change
+## Horizontal Rule - Thematic Change
 - Use `<hr>` or `<hr/> ` to define a thematic change in the content
 
 ```HTML
