@@ -70,3 +70,20 @@ tag{
   font-family: 'Abel', sans-serif;
 }
 ```
+
+## Class vs Id
+- use `class` to define customization across multiple tags
+- use `id` to define customization for a single type
+
+```css
+/* this is a class */
+.yellow-text{
+  color: yellow;
+}
+
+/* this is an id */
+/* id overrides class */
+#urgent{
+  color: red;
+}
+```

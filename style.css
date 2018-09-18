@@ -12,12 +12,12 @@ body{
   /* Text -colors with a HEX Code */
   /* Hex code is created with Red, Green, Blue: #RRGGBB */
   /* Hex numbers are 0-15 represented by 1-9,a-f */
-  color: #ffffff;
+  color: #ffff33ee;
   /* color: #000000; */
   /* color: #00ff00; */
   /* chrome browser supports opacity with additional hex values */
   /* color: #00ff00f0; */
-  color: #ffffffff;
+  /* color: #ffffffff; */
 
   /* Background image (repeats by default) */
   /* background-image: url("images/back.png"); */
@@ -31,7 +31,7 @@ body{
   /* Cover entire page with the image */
   background-size: cover;
 
-
+  text-align: center;
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -41,16 +41,37 @@ h1{
   /* em = the current font-size */
   line-height: 2em;
   text-align: center;
-  text-align: right;
+  /* text-align: right; */
   font-family: 'Abel', sans-serif;
+}
+
+h2{
+  text-align: left;
+  font-family: 'Abel', sans-serif;
+}
+
+p{
+  font-family: 'Abel', sans-serif;
+  color: #fff;
+  text-align: left;
 }
 
 .google-font{
   font-family: 'Abel', sans-serif;
 }
 
+.list-align{
+  padding-left: 300px;
+  text-align: left;
+}
+
 .yellow-text{
   color: yellow;
+}
+
+.padding{
+  padding-left: 300px;
+  padding-right: 300px;
 }
 
 /* id overrides class */
