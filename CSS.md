@@ -73,7 +73,16 @@ tag{
 
 ## Class vs Id
 - use `class` to define customization across multiple tags
+  - grouping styles for many elements
+  - class will override a "global" style i.e. a tag styling
+  ```CSS
+  /* this is like a global */
+  p{
+    /* styles */
+  }
+  ```
 - use `id` to define customization for a single type
+  - used for overriding class settings
 
 ```css
 /* this is a class */
@@ -87,3 +96,26 @@ tag{
   color: red;
 }
 ```
+
+## Global Tag, Class and ID
+
+```css
+p{
+  color: #111;
+}
+/* classes and IDs name must start with a letter */
+.class-name{
+  color: #222;
+}
+#ID-name{
+  color: #333;
+}
+```
+- a global tag is generic like `p`
+- a class will override a global
+- an ID will override a class
+
+## Padding vs Margin vs border
+- Padding is the space inside a div
+- Margin is the spacing outside the div
+- Border goes between padding and margin and takes up actual pixel space.
